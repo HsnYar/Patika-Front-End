@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1 id="title">Registration Form</h1>
+            <p id="description">Please fill the form</p>
+            <form id="survey-form" action="./index.html" method="get">
+                <div class="inputgroup">
+                    <label for="name-label">Name</label>
+                    <input id="name" type="text" placeholder="Name" required>
+                </div>
+                <div class="inputgroup">
+                    <label for="email-label">E-Mail</label>
+                    <input id="email" type="email" placeholder="E-Mail" required>
+                </div>
+                <div class="inputgroup">
+                    <label for="number-label">Age</label>
+                    <input id="number" type="number" placeholder=" Age" min="10" max="100">
+                </div>
+                <div class="inputgroup">
+                    <label for="select-label">Gender</label>
+                    <select name="select" id="select">
+                        <option disabled selected hidden>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="radio">
+                    <label for="">Where did you hear us?</label>
+                    <div>
+                        <input type="radio" name="option" value="1"> Instagram
+                        <input type="radio" name="option" value="2"> Linked-in
+                        <input type="radio" name="option" value="3"> Twitter
+                        <input type="radio" name="option" value="4"> Other
+                    </div>
+                </div>
+                <div class="tos">
+                    <input type="checkbox" required> I have read and understand "Terms of service"
+                    <input type="checkbox"> I want to receive E-mail notifications
+                </div>
+                <div class="">
+                    <textarea name="suggestions" placeholder="Suggestions"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
