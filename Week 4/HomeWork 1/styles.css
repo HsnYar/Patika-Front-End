@@ -1,0 +1,13 @@
+
+body {
+    background-color: darkgray;
+}
+
+
+.bg-vid {
+    /*clip-path: polygon(0 0, 100% 0, 100% 60%, 0 60%);*/
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+    z-index: -1;
+}
