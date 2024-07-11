@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Review Page</title>
+</head>
+<body class="bg-zinc-100 selection:bg-violet-500 selection:text-zinc-100">
+
+    <!--NAVBAR-->
+    <nav class="bg-zinc-100 h-24 flex items-center">
+        <div class="container flex mx-auto px-4">
+            <div class="flex">
+                <ul class="flex gap-3 start-0">
+                    <li><a class="p-2 pb-5 font-semibold text-xl text-violet-500 border-b-2 border-violet-600" href="./index.html">Link</a></li>
+                    <li><a class="p-2 pb-5 font-semibold text-xl text-zinc-600 border-b-2 border-zinc-400 hover:text-violet-400 hover:border-violet-600 transition-colors" href="./index.html">Link</a></li>
+                    <li><a class="p-2 pb-5 font-semibold text-xl text-zinc-600 border-b-2 border-zinc-400 hover:text-violet-400 hover:border-violet-600 transition-colors" href="./index.html">Link</a></li>
+                </ul>
+            </div>
+            <div class="grow text-center">
+                <a class="text-violet-500 text-4xl mb-2 hover:text-violet-400 transition-colors" href="./index.html"><i class="bi bi-c-square-fill"></i></a>
+            </div>
+            <div class="flex justify-end gap-3 ">
+                <input class="bg-white h-8 rounded pl-2 mt-2 w-24 hidden lg:block" type="text" style="font-family: bootstrap-icons;" placeholder=" &#xF52A; Search...">
+                <button class="text-zinc-100 font-semibold mt-2 bg-violet-500 px-6 pb-1 rounded h-8 hover:bg-violet-400 transition-colors">Log In</button>
+            </div>
+        </div>
+    </nav>
+    
+    <!--HERO-->
+    <section class="bg-zinc-300 p-20">
+        <div class="container mx-auto">
+            <div class="text-center text-4xl lg:text-6xl font-bold">
+                <p>Lorem ipsum</p>
+                <p>dolor <span class="text-violet-500">sit</span></p>
+                <p><span class="text-violet-500">amet</span> consectetur.</p>
+            </div>
+            <div class="text-center mt-9 font-semibold text-lg">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dicta!</p>
+            </div>
+            <div class="flex justify-center gap-9 mt-14">
+                <button class="bg-violet-500 rounded px-6 pb-2 pt-1 font-semibold text-zinc-100 hover:bg-violet-400 transition-colors">Get Started</button>
+                <button class="font-semibold hover:text-violet-400 transition-colors">Learn more</button>
+            </div>
+        </div>
+    </section>
+    
+    <!--COMMENTS-->
+    <p class="text-center font-bold text-2xl md:text-3xl lg:text-4xl p-9 lg:mt-9">What customers are saying about us</p>
+
+    <section class="container flex justify-center mx-auto flex-wrap lg:flex-nowrap p-4 gap-9 lg:gap-28 lg:mt-9">
+        <div class="bg-white rounded shadow-md w-11/12 lg:w-4/12  ">
+            <div class="px-20 pt-10">
+                <div class="rotate-180 scale-x-[-1] ">
+                    <i class="bi bi-quote text-6xl text-violet-500"></i>
+                </div>
+                <p class="font-semibold text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illo repellat harum voluptatem quisquam dolore.</p>
+                <div class="scale-x-[-1] ">
+                    <i class="bi bi-quote text-6xl text-violet-500"></i>
+                </div>
+                <div class="flex justify-center mb-9">
+                    <img class="absolute rounded-full w-20" src="https://picsum.photos/id/128/200/200" alt="">
+                </div>
+            </div>
+            <div class="h-28 bg-violet-500 rounded-b shadow-md">
+                <div class="h-32 bg-violet-500 rounded-b shadow-md text-center pt-12 ">
+                    <p class="font-semibold text-zinc-100 text-xl"><span class="font-bold">Leeroy Jenkins</span> <br> Blackrock</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white rounded shadow-md w-11/12 lg:w-4/12  ">
+            <div class="px-20 pt-10">
+                <div class="rotate-180 scale-x-[-1] ">
+                    <i class="bi bi-quote text-6xl text-violet-500"></i>
+                </div>
+                <p class="font-semibold text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illo repellat harum voluptatem quisquam dolore.</p>
+                <div class="scale-x-[-1] ">
+                    <i class="bi bi-quote text-6xl text-violet-500"></i>
+                </div>
+                <div class="flex justify-center mb-9">
+                    <img class="absolute rounded-full w-20" src="https://picsum.photos/id/136/200/200" alt="">
+                </div>
+            </div>
+            <div class="h-28 bg-violet-500 rounded-b shadow-md">
+                <div class="h-32 bg-violet-500 rounded-b shadow-md text-center pt-12 ">
+                    <p class="font-semibold text-zinc-100 text-xl"><span class="font-bold">Leeroy Jenkins</span> <br> Blackrock</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container flex justify-center mx-auto flex-wrap lg:flex-nowrap p-4 gap-9 lg:gap-28 lg:mt-9">
+        <div class="bg-white rounded shadow-md w-11/12 lg:w-4/12  ">
+            <div class="px-20 pt-10">
+                <div class="rotate-180 scale-x-[-1] ">
+                    <i class="bi bi-quote text-6xl text-violet-500"></i>
+                </div>
+                <p class="font-semibold text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illo repellat harum voluptatem quisquam dolore.</p>
+                <div class="scale-x-[-1] ">
+                    <i class="bi bi-quote text-6xl text-violet-500"></i>
+                </div>
+                <div class="flex justify-center mb-9">
+                    <img class="absolute rounded-full w-20" src="https://picsum.photos/id/168/200/200" alt="">
+                </div>
+            </div>
+            <div class="h-28 bg-violet-500 rounded-b shadow-md">
+                <div class="h-32 bg-violet-500 rounded-b shadow-md text-center pt-12 ">
+                    <p class="font-semibold text-zinc-100 text-xl"><span class="font-bold">Leeroy Jenkins</span> <br> Blackrock</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white rounded shadow-md w-11/12 lg:w-4/12  ">
+            <div class="px-20 pt-10">
+                <div class="rotate-180 scale-x-[-1] ">
+                    <i class="bi bi-quote text-6xl text-violet-500"></i>
+                </div>
+                <p class="font-semibold text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illo repellat harum voluptatem quisquam dolore.</p>
+                <div class="scale-x-[-1] ">
+                    <i class="bi bi-quote text-6xl text-violet-500"></i>
+                </div>
+                <div class="flex justify-center mb-9">
+                    <img class="absolute rounded-full w-20" src="https://picsum.photos/id/192/200/200" alt="">
+                </div>
+            </div>
+            <div class="h-28 bg-violet-500 rounded-b shadow-md">
+                <div class="h-32 bg-violet-500 rounded-b shadow-md text-center pt-12 ">
+                    <p class="font-semibold text-zinc-100 text-xl"><span class="font-bold">Leeroy Jenkins</span> <br> Blackrock</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FORM-->
+    <section class="bg-zinc-300 mt-9 lg:mt-28 p-9">
+        <div class="container flex mx-auto">
+            <div class="bg-zinc-100 rounded shadow-md lg:mt-9 flex w-11/12 lg:w-5/12  p-9 mx-auto">
+                <form class="flex flex-col grow" action="submint">
+                    <div>
+                        <h2 class="font-bold text-2xl lg:text-4xl">Contact us</h2>
+                    </div>
+                    <div class="flex flex-col mt-6 lg:mt-14">
+                        <label class="font-semibold text-lg" for="name">Name</label>
+                        <input class="h-9 rounded pl-2 mt-2" type="name" placeholder="Your Name">
+                    </div>
+                    <div class="flex flex-col mt-2 lg:mt-6">
+                        <label class="font-semibold text-lg" for="email">E-Mail</label>
+                        <input class="h-9 rounded pl-2 mt-2" type="email" placeholder="Your E-mail">
+                    </div>
+                    <div class="flex flex-col mt-2 lg:mt-6">
+                        <label class="font-semibold text-lg" for="textarea">Message</label>
+                        <textarea class="h-20 rounded pl-2 pt-1 mt-2" style="resize: none;" name="message" id="textarea" placeholder="Message..."></textarea>
+                    </div>
+                    <button class="bg-violet-500 rounded font-semibold text-lg text-zinc-100 mt-9 p-2 hover:bg-violet-400 transition-colors">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="bg-zinc-300">
+        <div class="container mx-auto pt-4 lg:pt-18 pb-9">
+            <div class="flex justify-between flex-wrap px-20 md:px-60 lg:px-8">
+                <div class="flex gap-4">
+                    <a class="font-semibold text-lg hover:text-violet-400 transition-colors" href="#">Shop</a>
+                    <a class="font-semibold text-lg hover:text-violet-400 transition-colors" href="#">About</a>
+                    <a class="font-semibold text-lg hover:text-violet-400 transition-colors" href="#">Blog</a>
+                    <a class="font-semibold text-lg hover:text-violet-400 transition-colors" href="#">Pricing</a>
+                    <a class="font-semibold text-lg hover:text-violet-400 transition-colors" href="#">Contact</a>
+                </div>
+                <div class="flex gap-4 mt-2 lg:mt-0 pl-4 lg:pl-0">
+                        <a class="bg-violet-500 rounded-full p-2 px-3 hover:bg-violet-400 transition-colors font-semibold text-xl text-zinc-100" href="#"><i class="bi bi-instagram"></i></a>
+                        <a class="bg-violet-500 rounded-full p-2 px-3 hover:bg-violet-400 transition-colors font-semibold text-xl text-zinc-100" href="#"><i class="bi bi-pinterest"></i></a>
+                        <a class="bg-violet-500 rounded-full p-2 px-3 hover:bg-violet-400 transition-colors font-semibold text-xl text-zinc-100" href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a class="bg-violet-500 rounded-full p-2 px-3 hover:bg-violet-400 transition-colors font-semibold text-xl text-zinc-100" href="#"><i class="bi bi-facebook"></i></a>
+                        <a class="bg-violet-500 rounded-full p-2 px-3 hover:bg-violet-400 transition-colors font-semibold text-xl text-zinc-100" href="#"><i class="bi bi-google"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
