@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+button {
+    border: 3px solid gray;
+    color: gray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 32px;
+    transition: 0.1s;
+}
+
+.padding {
+    gap: 30px;
+}
+
+.bottonact {
+    background-color: firebrick;
+    color: black;
+    border: solid black;
+}
