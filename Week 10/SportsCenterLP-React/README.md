@@ -10,7 +10,7 @@
     <img src="https://a11ybadges.com/badge?logo=javascript" width="170" height="30"/> &nbsp;
 </p>
 <hr>
-<h3 align="center"><a href="https://hasanyar-sportscenter.netlify.app/">🔗  Project Link</a></h3>
+<h3 align="center"><a href="https://sportscenter-react.netlify.app/">🔗  Project Link</a></h3>
 <hr>
 
 
