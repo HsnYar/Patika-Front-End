@@ -1,6 +1,5 @@
 import "../../../gridview.css"
 import "./trainers.css"
-import Classes from "../Classes/classes.jsx";
 
 const Trainers = () => {
     return (
