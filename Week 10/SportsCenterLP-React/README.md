@@ -1,8 +1,16 @@
-# React + Vite
+<h1 align="center">SPORTS CENTER - RESPONSIVE LANDING PAGE PROJECT</h1>  
+<p align="left">  
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<h3 align="center">Used Languages and Tools:</h3>  
+<p align="center"> 
+    <img src="https://a11ybadges.com/badge?logo=html5" alt="html5" width="110" height="30"/> &nbsp;
+    <img src="https://a11ybadges.com/badge?logo=css3" width="100" height="30"/> &nbsp;
+    <img src="https://a11ybadges.com/badge?logo=javascript" width="170" height="30"/> &nbsp;
+</p>
+<hr>
+<h3 align="center"><a href="https://sportscenter-react.netlify.app/">🔗  Project Link</a></h3>
+<hr>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
