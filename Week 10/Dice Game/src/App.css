@@ -74,7 +74,10 @@ html {
 .dice-container img {
     width: 10rem;
     height: auto;
-    animation: 0.2s anim-roll;
+}
+
+.dice-rolling {
+    animation: 0.2s anim-roll ease infinite;
 }
 
 @keyframes anim-roll {

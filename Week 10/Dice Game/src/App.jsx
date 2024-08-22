@@ -19,7 +19,7 @@ function App() {
 
   const [diceImg, setDiceImg] = useState(dices[0])
   const [diceImg2, setDiceImg2] = useState(dices[1])
-  const [rolling, setRolling] = useState(false); // Zarların dönüp dönmediğini kontrol etmek için
+  const [rolling, setRolling] = useState(false)
 
 
 
@@ -30,15 +30,14 @@ function App() {
     }, [diceImg, diceImg2, rolling]);
 
 
-  let random1 = Math.floor(Math.random() * 6);
-  let random2 = Math.floor(Math.random() * 6);
-
     function rollDice() {
         setRolling(true);
         let interval = setInterval(() => {
+            let random1 = Math.floor(Math.random() * 6);
+            let random2 = Math.floor(Math.random() * 6);
             setDiceImg(dices[random1]);
             setDiceImg2(dices[random2]);
-        }, 100);
+        }, 50);
 
         setTimeout(() => {
             clearInterval(interval);
@@ -47,9 +46,28 @@ function App() {
     }
 
 
+
+
   const Score = () => {
-    const diceValue = dices.indexOf(diceImg)+1 ;
-    const dice2Value = dices.indexOf(diceImg2)+1 ;
+    const diceValue = dices.indexOf(diceImg) +1 ;
+    const dice2Value = dices.indexOf(diceImg2) +1 ;
+
+    if (!rolling && diceValue === 1 && dice2Value === 2) {
+        return (
+            <div className="roll-container">
+                <h2>Roll The Dice!</h2>
+            </div>
+        );
+    }
+
+    if (rolling) {
+          return (
+              <div className="roll-container">
+                  <h2>Rolling!</h2>
+              </div>
+          );
+      }
+
     if (diceValue > dice2Value) {
       return (
           <>
@@ -66,19 +84,11 @@ function App() {
             </div>
           </>
       )
-    } else if (diceValue === dice2Value) {
+    } else {
       return (
           <>
             <div className="draw-container">
               <h2>Draw!</h2>
-            </div>
-          </>
-      )
-    } else {
-      return (
-          <>
-            <div className="roll-container">
-              <h2>Roll the Dice!</h2>
             </div>
           </>
       )
@@ -113,15 +123,15 @@ const handleNewUser = () => {
         <div className="dice-container">
           <div>
             <h3>{username}</h3>
-            <img src={diceImg} alt="dice1"/>
+            <img className={rolling ? 'dice-rolling' : ''} src={diceImg} alt="dice1"/>
           </div>
           <div>
             <h3>Computer</h3>
-            <img src={diceImg2} alt="dice2"/>
+            <img className={rolling ? 'dice-rolling' : ''} src={diceImg2} alt="dice2"/>
           </div>
         </div>
         <div className="button-container">
-          <button onClick={rollDice}>Roll</button>
+          <button onClick={rollDice} disabled={rolling}>Roll</button>
         </div>
       </div>
     </>
