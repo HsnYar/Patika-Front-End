@@ -35,7 +35,7 @@ const products = [
         image: "/Images/ducati.jpg",
     },
     {
-        name: "Iphone",
+        name: "McLaren",
         price: "500000",
         image: "/Images/mclaren.png",
     },
