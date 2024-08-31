@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Money from "./components/Money";
-import Product from "./components/Product";
+import Money from "./Components/money.jsx";
+import Product from "./Components/product.jsx";
 import Receipt from "./Components/receipt.jsx";
 import products from "./Data/data.js";
 import "./index.css";
