@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import Textarea from './Components/Textarea';
-import Header from './Components/Header';
-import SearchBar from './Components/SearchBar';
-import Notes from './Components/Notes';
+import Textarea from './Components/textarea.jsx';
+import Header from './Components/header.jsx';
+import SearchBar from './Components/searchbar.jsx';
+import Notes from './Components/notes.jsx';
 import './App.css';
 
 function App() {
