@@ -5,10 +5,8 @@ function Shipcard({ ship }) {
     const navigate = useNavigate();
 
     return (
+        <>
         <div className="shipcard" onClick={() => navigate(`/ship/${ship.url.split("/")[5]}`)}>
-            <div className="bodybg">
-                <img src="./Images/space.webp" alt="" />
-            </div>
             <img src="./Images/ship.png" alt="Starship" />
             <div className="shipname">
                 <p className="shipcard-info-h">Ship Name: </p>
@@ -17,6 +15,7 @@ function Shipcard({ ship }) {
                 <p className="shipcard-info">{ship.model}</p>
             </div>
         </div>
+        </>
     );
 }
 

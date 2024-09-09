@@ -13,6 +13,9 @@ function ShipInfo({ ships }) {
 
     return (
         <div>
+            <div className="bodybg">
+                <img src="./Images/space.webp" alt="" />
+             </div>
             <button className="back-button" onClick={() => navigate(-1)}>Back</button>
             <div className="container">
                 <div className="ship-info-card">
