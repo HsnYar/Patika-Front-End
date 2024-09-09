@@ -16,7 +16,7 @@ function ShipInfo({ ships }) {
             <button className="back-button" onClick={() => navigate(-1)}>Back</button>
             <div className="container">
                 <div className="ship-info-card">
-                    <img src="./Images/ship.png" alt="ship"/>
+                    <img src="../Images/ship.png" alt="ship"/>   
                     <div className="ship-info-card-info">
                         <p className="shipInfo-h">Ship Name: <span className="shipInfo-s">{ship.name}</span></p>
                         <p className="shipInfo-h">Model: <span className="shipInfo-s">{ship.model}</span></p>
