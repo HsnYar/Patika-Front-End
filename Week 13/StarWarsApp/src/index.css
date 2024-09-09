@@ -11,7 +11,6 @@ body {
 
 .bodybg {
   position: fixed;
-  background-image: url("./Images/space.webp");
   top: 0;
   left: 0;
   height: 100vh;

@@ -45,14 +45,16 @@ function App() {
     return (
         <Router>
             {isLoading && <div className="loading-bar"></div>}
-            <div className="bodybg"></div>
+            <div className="bodybg">
+                <img src="./Images/space.webp" alt="" />
+            </div>
             <Routes>
                 <Route
                     path="/"
                     element={
                         <>
                             <div className="container">
-                                <img src="./public/Images/logo.png" alt="Star Wars" />
+                                <img src="./Images/logo.png" alt="Star Wars" />
                             </div>
                             <div className="container">
                                 <Searchbar onSearch={handleSearch} />
